@@ -1,0 +1,1 @@
+player_health = 1000
