@@ -54,4 +54,21 @@ player2_health = "1100"
 
 print(sentence_start + player1_health + sentence_end)
 print(sentence_start + player2_health + sentence_end)
+
+lesson 15 had to assume what they wanted cause this was a lesson that needed boots the ai bear thing
+quest_start = "You there! Adventurer!"
+quest_middle = "The local mine has been taken over by orcs!"
+quest_end = "We need your help taking it back!"
+quest_objective = "Bring back 8 of their axes as proof of your hard work."
+space = " "
+print(quest_start, space, quest_middle, space, quest_end, space, quest_objective)
+
+lesson 18 getting an average or mean
+
+game_one_score = 97
+game_two_score = 92
+game_three_score = 106
+game_four_score = 105
+average_score = (game_one_score + game_two_score + game_three_score + game_four_score) / 4
+print(average_score)
 """
