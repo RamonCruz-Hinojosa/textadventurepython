@@ -1,6 +1,6 @@
 """
-Lesson 1 functions
-"""
+Lesson 1 functions #added spear area function
+
 def area_of_circle(radius):
     pi = 3.14
     area = pi * radius * radius
@@ -14,6 +14,7 @@ spear_length = 2.0
 
 sword_area = area_of_circle(sword_length)
 spear_area = 0
+spear_area = area_of_circle(spear_length)
 
 # don't touch below this line
 
@@ -22,3 +23,33 @@ print("Sword attack area:", sword_area, "square meters")
 
 print("Spear length:", spear_length, "meters.")
 print("Spear attack area:", spear_area, "square meters")
+
+lesson 4 multiple parameters
+
+def triple_attack(damage_one, damage_two, damage_three):
+    # ?
+    result = damage_one + damage_two + damage_three
+    return result
+
+# Don't touch below this line
+
+# This is the first triple attack
+attack_one = 2
+attack_two = 4
+attack_three = 3
+first_triple_attack_damage = triple_attack(attack_one, attack_two, attack_three)
+
+print("Getting damage for", attack_one, attack_two, "and", attack_three, "...")
+print(first_triple_attack_damage, "points of damage dealt!")
+print("=====================================")
+
+# This is the second triple attack
+attack_four = -1
+attack_five = 10
+attack_six = 5
+second_triple_attack_damage = triple_attack(attack_four, attack_five, attack_six)
+
+print("Getting damage for", attack_four, attack_five, "and", attack_six, "...")
+print(second_triple_attack_damage, "points of damage dealt!")
+print("=====================================")
+"""
